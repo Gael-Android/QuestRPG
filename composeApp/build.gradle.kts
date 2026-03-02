@@ -9,6 +9,7 @@ plugins {
 kotlin {
     androidLibrary {
         namespace = "com.okhotsk.questrpg.composeapp"
+        androidResources.enable = true
         compilerOptions {
             jvmTarget.set(JvmTarget.JVM_11)
         }
