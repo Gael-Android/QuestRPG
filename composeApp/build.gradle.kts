@@ -36,6 +36,15 @@ compose.desktop {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "com.okhotsk.questrpg"
             packageVersion = "1.0.0"
+            linux {
+                iconFile.set(project.file("src/desktopMain/resources/icons/app-icon-512.png"))
+            }
+            windows {
+                iconFile.set(project.file("src/desktopMain/resources/icons/app-icon.ico"))
+            }
+            macOS {
+                iconFile.set(project.file("src/desktopMain/resources/icons/app-icon-1024.png"))
+            }
         }
     }
 }
