@@ -1,4 +1,4 @@
-rootProject.name = "Questrpg"
+rootProject.name = "QuestRPG"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

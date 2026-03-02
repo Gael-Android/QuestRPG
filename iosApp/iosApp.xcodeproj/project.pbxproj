@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C1A1B45A7732936089595CAD /* Questrpg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Questrpg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A1B45A7732936089595CAD /* QuestRPG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuestRPG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -59,7 +59,7 @@
 		EE096975CB23D729CB58C0E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1A1B45A7732936089595CAD /* Questrpg.app */,
+				C1A1B45A7732936089595CAD /* QuestRPG.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,7 +87,7 @@
 			packageProductDependencies = (
 			);
 			productName = iosApp;
-			productReference = C1A1B45A7732936089595CAD /* Questrpg.app */;
+			productReference = C1A1B45A7732936089595CAD /* QuestRPG.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
