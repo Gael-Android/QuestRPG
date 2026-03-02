@@ -7,11 +7,11 @@ plugins {
 
 android {
     namespace = "com.okhotsk.questrpg"
-    compileSdk = libs.versions.android.compileSdk.get().toInt()
+    compileSdk = libs.versions.projectCompileSdkVersion.get().toInt()
     defaultConfig {
         applicationId = "com.okhotsk.questrpg"
-        minSdk = libs.versions.android.minSdk.get().toInt()
-        targetSdk = libs.versions.android.targetSdk.get().toInt()
+        minSdk = libs.versions.projectMinSdkVersion.get().toInt()
+        targetSdk = libs.versions.projectTargetSdkVersion.get().toInt()
         versionCode = 1
         versionName = "1.0"
     }
