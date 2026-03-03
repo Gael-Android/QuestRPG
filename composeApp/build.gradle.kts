@@ -19,7 +19,7 @@ kotlin {
         commonMain.dependencies {
             implementation(libs.androidx.lifecycle.viewmodel.compose)
             implementation(libs.androidx.lifecycle.runtime.compose)
-            implementation(projects.shared)
+            implementation(projects.core.domain)
         }
         desktopMain.dependencies {
             implementation(compose.desktop.currentOs)
